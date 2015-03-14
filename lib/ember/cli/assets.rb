@@ -7,7 +7,6 @@ module Ember
     autoload :Loader, 'ember/cli/loader'
     autoload :LoadInitializer, 'ember/cli/load_initializer'
     autoload :Resolver, 'ember/cli/resolver'
-    autoload :Shims, 'ember/cli/shims'
 
     module Assets
       def self.root
