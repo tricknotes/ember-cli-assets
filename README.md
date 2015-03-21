@@ -7,7 +7,7 @@ The following assets are included:
 * [Ember Resolver](https://github.com/ember-cli/ember-resolver)
 * [Ember load initializers](https://github.com/ember-cli/ember-load-initializers)
 
-Thanks for all efforts by Ember CLI comunitiy.
+Thanks for all efforts by Ember CLI community.
 
 This gem is aimed at the ES6 integration of [Ember Rails](https://github.com/emberjs/ember-rails).
 
