@@ -2,7 +2,7 @@ require 'bundler/gem_tasks'
 require 'ember/cli/assets'
 require 'rake/testtask'
 
-task :default => :test
+task :default => [:update_assets, :test]
 
 Rake::TestTask.new do |t|
   t.libs << 'test'
