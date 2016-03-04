@@ -7,6 +7,7 @@ class TestEmberCLIAssets < Minitest::Test
 
   def test_loader_is_exist
     assert Ember::CLI::Assets.root.join('ember/loader.js').exist?
+    assert Ember::CLI::Assets.root.join('ember/loader.js').read =~ /'use strict';/
   end
 
   def test_resolver_is_exist
@@ -18,5 +19,6 @@ class TestEmberCLIAssets < Minitest::Test
 
   def test_load_initializers_is_exist
     assert Ember::CLI::Assets.root.join('ember/load-initializers.js').exist?
+    assert Ember::CLI::Assets.root.join('ember/load-initializers.js').read =~ /define\("ember\/load-initializers"/
   end
 end
